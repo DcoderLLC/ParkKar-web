@@ -1,8 +1,12 @@
+import { Box } from '@mui/material'
 import {} from 'react'
+import HomeHero from '../Components/Home/HomeHero'
 
 const Home = () => {
   return (
-    <div><h1>Home</h1></div>
+    <Box>
+      <HomeHero />
+    </Box>
   )
 }
 
